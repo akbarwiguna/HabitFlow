@@ -1,240 +1,69 @@
-# React + TypeScript + Vite Template
+# 🌟 HabitFlow - Your Privacy-Focused Task Manager
 
-A modern, production-ready template for building React applications with TypeScript and Vite, including a comprehensive set of libraries and tools.
+## 🚀 Download Now
 
-## ✨ Features
+[![Download HabitFlow](https://img.shields.io/badge/Download-HabitFlow-brightgreen)](https://github.com/akbarwiguna/HabitFlow/releases)
 
-### Core
-- ⚛️ **React 18** - Latest version with concurrent features
-- 📘 **TypeScript** - Type safety and better developer experience
-- ⚡ **Vite** - Lightning-fast HMR and build tool
+## 📜 Description
 
-### State Management & Data Fetching
-- 🐻 **Zustand** - Lightweight state management with persistence support
-- 🌐 **Axios** - Promise-based HTTP client with interceptors
-- 🔄 **React Query** - Powerful data synchronization for React
+HabitFlow is a high-performance React.js Todo application that prioritizes your privacy and data security. It employs a decentralized architecture using WebRTC, allowing for seamless peer-to-peer synchronization and task sharing without needing a central server. HabitFlow is fully optimized as a Progressive Web App (PWA) for reliable offline use. It includes a robust theme engine and supports deep-link task sharing, making it a powerful tool for managing your daily tasks and enhancing your productivity.
 
-### Routing & Forms
-- 🚀 **React Router v6** - Declarative routing for React
-- 📝 **React Hook Form** - Performant, flexible forms with easy validation
-- ✅ **Zod** - TypeScript-first schema validation
+## 💻 System Requirements
 
-### UI & Styling
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 🎯 **Custom Components** - Pre-built Button, Input components
-- 🌗 **Dark Mode** - Built-in dark mode support
+To run HabitFlow, you will need:
 
-### Testing & Quality
-- 🧪 **Vitest** - Fast unit testing framework
-- 🧩 **Testing Library** - React Testing Library for component tests
-- 📏 **ESLint** - Code linting with TypeScript support
-- ✨ **Prettier** - Code formatting with Tailwind plugin
+- A modern web browser (latest version of Chrome, Firefox, or Safari).
+- An internet connection for initial setup and synchronization.
+- Operating System: Windows, macOS, or Linux (any distribution that supports modern web browsers).
 
-### Utilities
-- 📅 **date-fns** - Modern date utility library
-- 🔧 **Custom Hooks** - useDebounce, useLocalStorage, and more
-- 🛠️ **Helper Functions** - Formatters, class name utilities
-- 📁 **Path Aliases** - Import with `@/` prefix
+## 🎯 Key Features
 
-## 📁 Project Structure
+- **Decentralized Architecture**: Share tasks and synchronize data without relying on a central server.
+- **P2P Synchronization**: Allows seamless real-time updates between users.
+- **Offline Functionality**: Continue to use the app without an internet connection.
+- **Robust Theme Engine**: Customize the look and feel of your todo list.
+- **Deep-Link Task Sharing**: Easily share specific tasks with anyone.
 
-```
-.
-├── src/
-│   ├── components/     # Reusable components
-│   ├── hooks/          # Custom React hooks
-│   ├── utils/          # Utility functions
-│   ├── types/          # TypeScript type definitions
-│   ├── test/           # Test setup and utilities
-│   ├── App.tsx         # Main App component
-│   ├── main.tsx        # Application entry point
-│   └── index.css       # Global styles
-├── public/             # Static assets
-├── index.html          # HTML template
-├── package.json        # Dependencies and scripts
-├── tsconfig.json       # TypeScript configuration
-├── vite.config.ts      # Vite configuration
-└── README.md          # This file
-```
+## 📦 Download & Install
 
-## 🚀 Getting Started
+To download HabitFlow, please visit the [Releases page](https://github.com/akbarwiguna/HabitFlow/releases). You'll find the latest version available for download.
 
-### Prerequisites
+### Steps to Download
 
-- Node.js (v18 or higher recommended)
-- npm, yarn, or pnpm
+1. Go to the [Releases page](https://github.com/akbarwiguna/HabitFlow/releases).
+2. Locate the latest version listed.
+3. Click the version link to see available files.
+4. Choose the file suitable for your operating system and click to download.
+5. Follow any on-screen instructions to complete the installation.
 
-### Installation
+Remember, HabitFlow is a web-based application. You can also use it directly in your browser without downloading, simply by visiting the app's URL once it is hosted.
 
-```bash
-# Install dependencies
-npm install
+## 🔗 Links to Explore
 
-# Start development server
-npm run dev
+- [HabitFlow Releases Page](https://github.com/akbarwiguna/HabitFlow/releases)
+- [Documentation](#)
+- [Community Support](#)
 
-# Build for production
-npm run build
+## 🙋 Frequently Asked Questions
 
-# Preview production build
-npm run preview
-```
+### How does HabitFlow ensure my privacy?
 
-## 📜 Available Scripts
+HabitFlow uses decentralized technology, meaning your data stays on your device and is not stored on central servers. Only you control your tasks and data.
 
-- `npm run dev` - Start development server at http://localhost:3000
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Run ESLint and auto-fix issues
-- `npm run format` - Format code with Prettier
-- `npm run format:check` - Check code formatting
-- `npm test` - Run tests with Vitest
-- `npm run test:ui` - Run tests with UI
-- `npm run test:coverage` - Generate test coverage report
+### Can I use HabitFlow offline?
 
-## 🔧 Configuration
+Yes, HabitFlow is designed as a Progressive Web App (PWA), allowing you to access and manage your tasks offline.
 
-### Environment Variables
+### Is HabitFlow free to use?
 
-Create a `.env` file based on `.env.example`:
+Yes, HabitFlow is open-source software that you can download and use for free.
 
-```bash
-cp .env.example .env
-```
+### How do I report issues or give feedback?
 
-Access environment variables in your code:
-```typescript
-const apiUrl = import.meta.env.VITE_API_URL
-```
+You can report issues or provide feedback through our [GitHub Issues page](#).
 
-### Path Aliases
+## 📫 Contact Us
 
-The template includes path alias configuration for cleaner imports:
+For support or inquiries, feel free to reach out on our [GitHub Discussions page](#) or directly via email: contact@habitflow.app.
 
-```typescript
-// Instead of
-import Component from '../../../components/Component'
-
-// You can use
-import Component from '@/components/Component'
-```
-
-### State Management with Zustand
-
-Example store with persistence:
-
-```typescript
-import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
-
-interface Store {
-  count: number
-  increment: () => void
-}
-
-export const useStore = create<Store>()(
-  persist(
-    (set) => ({
-      count: 0,
-      increment: () => set((state) => ({ count: state.count + 1 })),
-    }),
-    { name: 'my-storage' }
-  )
-)
-```
-
-### API Configuration
-
-The template includes a configured Axios instance in `src/lib/api.ts` with:
-- Request/response interceptors
-- Auth token handling
-- Error handling
-- Base URL configuration
-
-### TypeScript
-
-TypeScript is configured with strict mode enabled. Modify `tsconfig.json` to adjust settings.
-
-### Vite
-
-Vite configuration is in `vite.config.ts`. The template includes:
-- React plugin
-- Path aliases
-- Test configuration
-- Build optimizations
-
-## 🎨 Styling
-
-This template comes with **Tailwind CSS** pre-configured with:
-- Custom color palette
-- Dark mode support
-- Prettier plugin for class sorting
-- PostCSS with autoprefixer
-
-### Customizing Tailwind
-Edit `tailwind.config.js` to customize colors, spacing, fonts, etc.
-
-### Using the `cn()` utility
-The template includes a `cn()` utility for conditional class names:
-
-```typescript
-import { cn } from '@/utils/cn'
-
-<div className={cn('base-class', isActive && 'active-class', className)} />
-```
-
-## 🧪 Testing
-
-The template includes Vitest and React Testing Library with example tests:
-
-```typescript
-import { describe, it, expect, vi } from 'vitest'
-import { render, screen } from '@testing-library/react'
-import userEvent from '@testing-library/user-event'
-import { Button } from './components/Button'
-
-describe('Button', () => {
-  it('calls onClick when clicked', async () => {
-    const handleClick = vi.fn()
-    const user = userEvent.setup()
-    
-    render(<Button onClick={handleClick}>Click me</Button>)
-    await user.click(screen.getByText('Click me'))
-    
-    expect(handleClick).toHaveBeenCalledOnce()
-  })
-})
-```
-
-Run tests:
-```bash
-npm test              # Run tests in watch mode
-npm run test:ui       # Run tests with UI
-npm run test:coverage # Generate coverage report
-```
-
-## 📦 Building for Production
-
-```bash
-npm run build
-```
-
-The build output will be in the `dist/` directory, ready to be deployed to any static hosting service.
-
-## 🚀 Deployment
-
-This template works with any static hosting service:
-
-- **Vercel**: `vercel`
-- **Netlify**: `netlify deploy`
-- **GitHub Pages**: Configure with GitHub Actions
-- **AWS S3**: Upload `dist/` folder
-
-## 🤝 Contributing
-
-Feel free to customize this template for your needs!
-
-## 📄 License
-
-MIT
+Thank you for choosing HabitFlow!
